@@ -64,6 +64,8 @@ export default {
   methods: {
     checkLoginStatus() {
       if (this.$authManager.getAccount()) {
+        console.log("login state", this.isLoggedIn);
+        console.log("login status", this.$authManager.getAccount());
         this.isLoggedIn = true;
       } else {
         this.isLoggedIn = false;
