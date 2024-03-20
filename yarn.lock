@@ -2481,10 +2481,10 @@
   resolved "https://registry.npmjs.org/@sindresorhus/merge-streams/-/merge-streams-2.3.0.tgz#719df7fb41766bc143369eaa0dd56d8dc87c9958"
   integrity sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==
 
-"@tria-sdk/authenticate-web@0.5.7":
-  version "0.5.7"
-  resolved "https://registry.npmjs.org/@tria-sdk/authenticate-web/-/authenticate-web-0.5.7.tgz#b0a7902dfa039d29debb1b79fae709daceb9141e"
-  integrity sha512-qOAi0pLQyhk7YvXurKeXuSEBWjb0x2xe91qca3D6sD64V3spp1HEy2J8ZjbgDTcVU4CQKAi4eBKQM+GLcm8vPw==
+"@tria-sdk/authenticate-web@0.5.8":
+  version "0.5.8"
+  resolved "https://registry.npmjs.org/@tria-sdk/authenticate-web/-/authenticate-web-0.5.8.tgz#d8baeb9a3d6e19e0d832dc418883d8f069a7b52d"
+  integrity sha512-HZ0kciDWqGxr7/PF0JQEcC1uruoshux24iO6P1E0SaBf5cVo36hdjdZuhO4yc/NCMWdrPz8evxbbCWcvh2FReA==
 
 "@trysound/sax@0.2.0":
   version "0.2.0"

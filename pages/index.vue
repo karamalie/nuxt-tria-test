@@ -63,7 +63,11 @@ export default {
   },
   methods: {
     checkLoginStatus() {
-      this.isLoggedIn = this.$authManager.isAuthenticated();
+      if (this.$authManager.getAccount()) {
+        this.isLoggedIn = true;
+      } else {
+        this.isLoggedIn = false;
+      }
     },
     login() {
       this.$authManager.login();
