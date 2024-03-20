@@ -69,6 +69,10 @@ export default defineNuxtConfig({
     },
 
     // If you need to transpile the @tria-sdk/authenticate-web package
-    transpile: ["@tria-sdk/authenticate-web"],
+    transpile: [
+      "@tria-sdk/authenticate-web",
+      "@tria-sdk/chains",
+      "@tria-sdk/chains",
+    ],
   },
 });
