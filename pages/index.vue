@@ -63,9 +63,10 @@ export default {
   },
   methods: {
     checkLoginStatus() {
+      console.log("login status", this.$authManager.getAccount());
       if (this.$authManager.getAccount()) {
-        console.log("login state", this.isLoggedIn);
-        console.log("login status", this.$authManager.getAccount());
+        console.log("login state", this.$authManager.isLoggedIn);
+
         this.isLoggedIn = true;
       } else {
         this.isLoggedIn = false;
@@ -76,6 +77,7 @@ export default {
     },
     loginListen() {
       this.$authManager.addEventListener("TRIA_LOGIN", () => {
+        console.log("setting login state");
         this.isLoggedIn = true;
       });
     },
