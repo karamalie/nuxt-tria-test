@@ -40,6 +40,9 @@
       <div class="action">
         <button @click="getAccountInfo" class="action-btn">Get Account</button>
       </div>
+      <div class="action">
+        <button @click="getBalance" class="action-btn">Get Balance</button>
+      </div>
     </div>
   </div>
 </template>
@@ -72,8 +75,8 @@ export default {
         this.isLoggedIn = false;
       }
     },
-    login() {
-      this.$authManager.login();
+    async login() {
+      await this.$authManager.login();
     },
     loginListen() {
       this.$authManager.addEventListener("TRIA_LOGIN", () => {
@@ -152,6 +155,14 @@ export default {
     getAccountInfo() {
       this.account = this.$authManager.getAccount();
       console.log("Account:", this.account);
+    },
+    async getBalance() {
+      const balance = await this.$userController.getAssetDetails(
+        "FUSE",
+        undefined,
+        "admin@tria"
+      );
+      console.log("Balance:", balance);
     },
   },
 };

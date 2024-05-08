@@ -41,7 +41,10 @@ export default defineNuxtConfig({
       // },
     ],
   },
-  plugins: [{ src: "~/plugins/auth-manager.js", mode: "client" }],
+  plugins: [
+    { src: "~/plugins/auth-manager.js", mode: "client" },
+    { src: "~/plugins/user-controller.js", mode: "client" },
+  ],
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
 
@@ -69,6 +72,6 @@ export default defineNuxtConfig({
     },
 
     // If you need to transpile the @tria-sdk/authenticate-web package
-    transpile: ["@tria-sdk/authenticate-web"],
+    transpile: ["@tria-sdk/authenticate-web", "@tria-sdk/core", "stytch"],
   },
 });
