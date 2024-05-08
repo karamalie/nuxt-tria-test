@@ -63,6 +63,7 @@ export default {
     this.getAccountInfo();
     this.logoutListen();
     this.loginListen();
+    this.signupListen();
   },
   methods: {
     checkLoginStatus() {
@@ -76,11 +77,18 @@ export default {
       }
     },
     async login() {
-      await this.$authManager.login();
+      const response = await this.$authManager.login();
+      console.log("Login/Signup response:", response);
     },
     loginListen() {
       this.$authManager.addEventListener("TRIA_LOGIN", () => {
         console.log("setting login state");
+        this.isLoggedIn = true;
+      });
+    },
+    signupListen() {
+      this.$authManager.addEventListener("TRIA_SIGNUP", () => {
+        console.log("setting signup state");
         this.isLoggedIn = true;
       });
     },
