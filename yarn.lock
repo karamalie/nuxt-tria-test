@@ -2481,17 +2481,17 @@
   resolved "https://registry.npmjs.org/@sindresorhus/merge-streams/-/merge-streams-2.3.0.tgz#719df7fb41766bc143369eaa0dd56d8dc87c9958"
   integrity sha512-LtoMMhxAlorcGhmFYI+LhPgbPZCkgP6ra1YL604EeF6U98pLlQ3iWIGMdWSC+vWmPBWBNgmDBAhnAobLROJmwg==
 
-"@tria-sdk/authenticate-web@1.0.4":
-  version "1.0.4"
-  resolved "https://registry.npmjs.org/@tria-sdk/authenticate-web/-/authenticate-web-1.0.4.tgz#b746c4a8a8bfe5e93ea032e5f988ec0c40ce9ab1"
-  integrity sha512-r8RyHuCrb0ecWKjQ0icEFLuywpbESOM+8gS4TAVIw9Guv7LOoBTlJzxjewZA9CaYNZU5g18jwOePXmm8SGeDAA==
+"@tria-sdk/authenticate-web@1.0.5":
+  version "1.0.5"
+  resolved "https://registry.npmjs.org/@tria-sdk/authenticate-web/-/authenticate-web-1.0.5.tgz#bcd91efc83e88ca7e47ff155278f5c7bf1f4132f"
+  integrity sha512-47gqtQd3h5CmUAv8r/TaioyyFnphu5kfFX2FqDTyQ+nlhE0ztbi2a3nYhlgscK/4y7lGVpmfkR2CxRJV7vN5Jw==
 
 "@tria-sdk/constants@1.0.18":
   version "1.0.18"
   resolved "https://registry.npmjs.org/@tria-sdk/constants/-/constants-1.0.18.tgz#05bd21a146b5d60bf0ced8bce42bba4a7d567f49"
   integrity sha512-tUFfwCvytjItFjMmFy9eDv4vlkeT9WwO9dbmcU6pk954OO+R5Y088IC5SUcKxUzb2Nnir6hELeUc4g0TVgtlGQ==
 
-"@tria-sdk/core@^4.3.34":
+"@tria-sdk/core@4.3.34":
   version "4.3.34"
   resolved "https://registry.npmjs.org/@tria-sdk/core/-/core-4.3.34.tgz#ec66c25821edfb621b3a3c2e20fa0889aa94c0a8"
   integrity sha512-uf3zkH5Yi5UU5tID8GnaFGQAy7LjLs+dyUPxds0Fwpk9JCTvmH45xREmnyTv/84ut7rwZaVTMhuMrytHknK2mA==
@@ -10255,9 +10255,9 @@ stylehacks@^6.1.0:
     postcss-selector-parser "^6.0.15"
 
 stytch@^10.4.0:
-  version "10.13.0"
-  resolved "https://registry.npmjs.org/stytch/-/stytch-10.13.0.tgz#61972b5e422819c7d84ec6903acff12148072435"
-  integrity sha512-of17OqWW5V7d753P3/5qbLWAjzIjTb959x7Bp9IycgJpw2kX0VQSbmMsdSV7ivTG6cVNd6Jpd66b6C7DFK7GXA==
+  version "10.15.1"
+  resolved "https://registry.npmjs.org/stytch/-/stytch-10.15.1.tgz#f8e6360899916488d73d6be70ef418ed2139f8f4"
+  integrity sha512-KVOsffp2SURNEw5UwQzUx/mFKFmPpdxgwwHbgidpEDvnJXog8Uz1DuQpnwxEa6B4OMm+GW2qSTiM0zGwi8tE2Q==
   dependencies:
     jose "^4.14.6"
     undici "^5.25.4"
